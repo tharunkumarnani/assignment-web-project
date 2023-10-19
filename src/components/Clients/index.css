@@ -1,0 +1,46 @@
+.clients-cont {
+  min-height: 60vh;
+  background-color: #8e3ccc;
+  font-family: Roboto;
+}
+.clients-heading {
+  color: yellow;
+  font-weight: 400;
+  margin-left: 200px;
+  font-size: 40px;
+}
+.line-arrow-dot-cl {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+.line-cl {
+  border: 2px #f03066 solid;
+  width: 350px;
+}
+.dot-cl {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #f03066;
+}
+.arrows-clients {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.left-arrow {
+  color: yellow;
+  font-size: 20px;
+}
+.clients-img {
+  width: 80%;
+}
+.right-arrow {
+  color: yellow;
+  font-size: 20px;
+}
