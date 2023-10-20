@@ -91,3 +91,36 @@
   margin-left: 10px;
   font-size: 20px;
 }
+
+@media (max-width: 768px) {
+  .right-left {
+    width: 96%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .test-left-part {
+    width: 60%;
+  }
+  .left-part-cont {
+    width: 80%;
+    overflow: auto;
+  }
+  .left-part-img {
+    height: 100px;
+    width: 120px;
+  }
+  .test-right-part {
+    width: 40%;
+  }
+  .test-right-top-heading {
+    font-size: 30px;
+  }
+  .line2-tst {
+    width: 150px;
+  }
+  .right-heading {
+    font-size: 30px;
+  }
+}

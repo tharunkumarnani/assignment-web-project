@@ -1,5 +1,3 @@
-import {Component} from 'react'
-
 import Home from './components/Home'
 import About from './components/About'
 import Process from './components/Process'
@@ -11,25 +9,17 @@ import ContactUs from './components/ContactUs'
 
 import './App.css'
 
-class App extends Component {
-  state = {
-    isLoggedIn: true,
-  }
-
-  render() {
-    return (
-      <div className="container">
-        <Home />
-        <About />
-        <Process />
-        <OurWork />
-        <OurServices />
-        <Clients />
-        <Testimonials />
-        <ContactUs />
-      </div>
-    )
-  }
-}
+const App = () => (
+  <div className="container">
+    <Home />
+    <About />
+    <Process />
+    <OurWork />
+    <OurServices />
+    <Clients />
+    <Testimonials />
+    <ContactUs />
+  </div>
+)
 
 export default App

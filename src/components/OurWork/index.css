@@ -59,3 +59,18 @@
 .landscape-img {
   width: 100%;
 }
+
+@media (max-width: 768px) {
+  .each-image {
+    width: 49%;
+  }
+  .each-image-double {
+    width: 49%;
+  }
+  .work-img-1 {
+    height: 49%;
+  }
+  .work-img-2 {
+    height: 49%;
+  }
+}

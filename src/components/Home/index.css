@@ -43,9 +43,47 @@
   font-size: 17px;
   text-decoration: none;
 }
+.nav-anchor:hover {
+  color: yellow;
+}
 .home-heading {
   margin: auto;
   font-family: Roboto;
   font-size: 70px;
   font-weight: 300;
+}
+.navigation-sm {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .home-heading {
+    font-size: 35px;
+  }
+  .navigation-lg {
+    display: none;
+  }
+  .navigation-sm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    padding-right: 15px;
+  }
+  .each-navi-sm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .anchor-sm {
+    font-size: 22px;
+    text-decoration: none;
+  }
+  .home-icons {
+    color: #000000;
+  }
+  .home-icons:hover {
+    color: #ffffff;
+  }
 }

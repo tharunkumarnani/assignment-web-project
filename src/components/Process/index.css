@@ -41,8 +41,10 @@
 }
 .list-item {
   width: 25%;
-  box-shadow: #00000079 0px 0px 15px 0px;
   padding: 5px;
+}
+.list-item:hover {
+  box-shadow: #00000079 0px 0px 15px 0px;
 }
 .list-item-heading {
   color: #ffffff;
@@ -51,4 +53,32 @@
   color: #ffffff;
   line-height: 25px;
   font-size: 16px;
+}
+@media (max-width: 768px) {
+  .process-cont {
+    height: 50vh;
+  }
+  .process-list-cont {
+    width: 100%;
+  }
+  .list-item {
+    width: 32%;
+  }
+  .pro-heading {
+    font-size: 22px;
+  }
+  .line-pr {
+    width: 300px;
+  }
+  .process-list-cont {
+    margin-top: 20px;
+    height: 50vh;
+  }
+  .list-item {
+    height: 60vh;
+    overflow: auto;
+  }
+  .list-item-heading {
+    font-size: 20px;
+  }
 }

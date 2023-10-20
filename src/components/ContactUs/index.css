@@ -54,3 +54,37 @@
   color: #ffffff;
   font-size: 35px;
 }
+@media (max-width: 768px) {
+  .contact-us-cont {
+    height: 40vh;
+    width: 100%;
+    padding: 0;
+  }
+  .cont-left {
+    width: 60%;
+  }
+  .contact-heading {
+    font-size: 25px;
+    margin-left: 60px;
+  }
+  .line-ctc {
+    width: 200px;
+  }
+  .contact-lists {
+    padding: 0;
+    width: 100%;
+    margin-left: 10px;
+  }
+  .each-contact-type {
+    margin-left: 10px;
+  }
+  .contact-des {
+    font-size: 17px;
+  }
+  .cont-right {
+    width: 40%;
+  }
+  .cont-style-img {
+    width: 100%;
+  }
+}

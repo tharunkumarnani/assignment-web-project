@@ -54,6 +54,11 @@
   flex-direction: column;
   justify-content: space-between;
 }
+.service-item:hover {
+  height: 38vh;
+  width: 24%;
+  box-shadow: #050938 0px 0px 5px 4px;
+}
 .service-heading {
   font-size: 20px;
 }
@@ -63,4 +68,14 @@
 .services-des {
   font-size: 15px;
   line-height: 22px;
+}
+
+@media (max-width: 768px) {
+  .services-list-cont {
+    width: 100%;
+  }
+  .service-item {
+    width: 34%;
+    overflow: auto;
+  }
 }

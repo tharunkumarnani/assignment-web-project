@@ -44,3 +44,12 @@
   color: yellow;
   font-size: 20px;
 }
+
+@media (max-width: 768px) {
+  .clients-heading {
+    margin-left: 110px;
+  }
+  .line-cl {
+    width: 250px;
+  }
+}
